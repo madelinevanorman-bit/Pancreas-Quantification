@@ -1,11 +1,29 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <title>Stargazers log</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Starred repositories</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Stargazers log</h1>
-    <p>A log of the repositories I've starred.</p>
+    <div class="container">
+      <header>
+        <h1>Starred repositories</h1>
+        <p class="section-intro">A simple list of repositories you've starred (sample data).</p>
+      </header>
+
+      <main>
+        <section id="starred">
+          <div id="starred-list" aria-live="polite"></div>
+        </section>
+      </main>
+
+      <footer style="margin-top:24px;color:#6b7280;font-size:0.9rem;">
+        Tip: run a static server (e.g. <code>python -m http.server</code>) to serve this folder and avoid file:// fetch restrictions.
+      </footer>
+    </div>
+
+    <script src="script.js" defer></script>
   </body>
 </html>
