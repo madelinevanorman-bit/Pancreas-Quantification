@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "name": "octo-awesome",
+    "owner": "octocat",
+    "html_url": "https://github.com/octocat/octo-awesome",
+    "description": "A small demo project showing awesome octocat features.",
+    "language": "JavaScript",
+    "stargazers_count": 128,
+    "owner_avatar_url": "https://avatars.githubusercontent.com/u/583231?v=4",
+    "starred_at": "2026-08-10T14:21:00Z"
+  },
+  {
+    "id": 2,
+    "name": "tiny-lib",
+    "owner": "madeline",
+    "html_url": "https://github.com/madeline/tiny-lib",
+    "description": "Tiny library for common utilities.",
+    "language": "TypeScript",
+    "stargazers_count": 42,
+    "owner_avatar_url": "https://avatars.githubusercontent.com/u/1234567?v=4",
+    "starred_at": "2026-08-12T09:05:00Z"
+  },
+  {
+    "id": 3,
+    "name": "design-system",
+    "owner": "ui-team",
+    "html_url": "https://github.com/ui-team/design-system",
+    "description": "Shared design system components and tokens.",
+    "language": "SCSS",
+    "stargazers_count": 540,
+    "owner_avatar_url": "https://avatars.githubusercontent.com/u/7654321?v=4",
+    "starred_at": "2026-07-30T20:45:00Z"
+  }
+]
