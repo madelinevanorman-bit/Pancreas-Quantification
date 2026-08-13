@@ -1,29 +1,49 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Starred repositories</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Projects — Madeline van Orman</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
     <div class="container">
-      <header>
-        <h1>Starred repositories</h1>
-        <p class="section-intro">A simple list of repositories you've starred (sample data).</p>
-      </header>
-
-      <main>
-        <section id="starred">
-          <div id="starred-list" aria-live="polite"></div>
-        </section>
-      </main>
-
-      <footer style="margin-top:24px;color:#6b7280;font-size:0.9rem;">
-        Tip: run a static server (e.g. <code>python -m http.server</code>) to serve this folder and avoid file:// fetch restrictions.
-      </footer>
+      <h1>My Projects</h1>
+      <p class="lead">A quick showcase of two projects I've worked on. Click "View on GitHub" to see the code.</p>
     </div>
+  </header>
 
-    <script src="script.js" defer></script>
-  </body>
+  <main class="container">
+    <section class="projects">
+      <article class="project-card">
+        <h2>Pancreatic-Quantification-FIJI</h2>
+        <p class="proj-desc">This is a pipeline created to quantify hormone area of glucagon, insulin, and tomato along with tissue area in a pancreatic slice from the Olympic VS200 Slide Scanner. Implemented as an ImageJ/FIJI macro.</p>
+        <div class="proj-actions">
+          <a class="btn" href="https://github.com/madelinevanorman-bit/Pancreatic-Quantification-FIJI" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <h2>QuPath-to-FIJI-Pipeline</h2>
+        <p class="proj-desc">A small Python utility that converts QuPath GeoJSON files into a .zip package usable in FIJI — part of a pipeline to move annotations between tools.</p>
+        <div class="proj-actions">
+          <a class="btn" href="https://github.com/madelinevanorman-bit/QuPath-to-FIJI-Pipeline" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+        </div>
+      </article>
+    </section>
+
+    <section class="demo">
+      <h3>Live demo</h3>
+      <p class="proj-desc">A short demo video will be available here once uploaded. For now, this is a placeholder link you can update later:</p>
+      <p><a class="btn ghost" href="https://youtube.com/placeholder" target="_blank" rel="noopener noreferrer">Live demo (coming soon)</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>Made by Madeline K van Orman • <a href="https://github.com/madelinevanorman-bit">GitHub profile</a></small>
+    </div>
+  </footer>
+</body>
 </html>
